@@ -6,5 +6,4 @@ int main()
   {
     printf("Le C, c'est la vie !\n") ;
   }
-  printf("\n")                       ;
 }
