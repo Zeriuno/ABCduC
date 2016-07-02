@@ -11,4 +11,5 @@ int main()
   {
     printf("On peut tout faire avec !\n") ;
   }
+  return 0                                ;
 }
