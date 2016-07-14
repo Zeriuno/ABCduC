@@ -6,7 +6,7 @@ int main()
   int ifill =4, ilarg = 9, ifull = 1, increment = 2, i, j;
   scanf("%c", &full);
 
-  for(j=0; j<5; j++)
+  for(j=0; j< (ilarg+1)/increment; j++)
   {
     for(i=0; i < ifill; i++)
       printf("%c", filler);
