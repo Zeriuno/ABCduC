@@ -15,7 +15,7 @@ int main()
     for(i=0; i<ifill; i++)
       printf("%c", filler);
     printf("\n");
-    ifull +=2;
+    ifull +=increment;
     ifill = (ilarg - ifull)/2;
   }
 
