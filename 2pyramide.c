@@ -3,58 +3,21 @@
 int main()
 {
   char filler='+', full;
-  int i;
+  int ifill =4, ilarg = 9, ifull = 1, increment = 2, i, j;
   scanf("%c", &full);
-  for(i=0; i < 4; i++)
-    printf("%c", filler);
-  printf("%c", full);
-  for(i=0; i<4; i++)
-    printf("%c", filler);
-  printf("\n");
 
-  for(i=0; i < 3; i++)
-    printf("%c", filler);
-  printf("%c", full);
-  printf("%c", full);
-  printf("%c", full);
-  for(i=0; i<3; i++)
-    printf("%c", filler);
-  printf("\n");
-
-  for(i=0; i < 2; i++)
-    printf("%c", filler);
-  printf("%c", full);
-  printf("%c", full);
-  printf("%c", full);
-  printf("%c", full);
-  printf("%c", full);
-  for(i=0; i<2; i++)
-    printf("%c", filler);
-  printf("\n");
-
-  for(i=0; i < 1; i++)
-    printf("%c", filler);
-  printf("%c", full);
-  printf("%c", full);
-  printf("%c", full);
-  printf("%c", full);
-  printf("%c", full);
-  printf("%c", full);
-  printf("%c", full);
-  for(i=0; i<1; i++)
-    printf("%c", filler);
-  printf("\n");
-
-  printf("%c", full);
-  printf("%c", full);
-  printf("%c", full);
-  printf("%c", full);
-  printf("%c", full);
-  printf("%c", full);
-  printf("%c", full);
-  printf("%c", full);
-  printf("%c", full);
-  printf("\n");
+  for(j=0; j<5; j++)
+  {
+    for(i=0; i < ifill; i++)
+      printf("%c", filler);
+    for(i=0; i< ifull; i++)
+      printf("%c", full);
+    for(i=0; i<ifill; i++)
+      printf("%c", filler);
+    printf("\n");
+    ifull +=2;
+    ifill = (ilarg - ifull)/2;
+  }
 
   return 0;
 }
