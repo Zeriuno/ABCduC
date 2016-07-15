@@ -5,6 +5,9 @@ int main()
   int a=2 ;
   double A;
   A = (double) a;
-  printf("%lf", A);
+  int B ;
+  double b =2.3 ;
+  B = (int) b   ;
+  printf("%d", B);
   return 0;
 }
