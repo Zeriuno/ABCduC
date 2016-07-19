@@ -2,7 +2,7 @@
 
 int main()
 {
-  int taille, i, j ;
+  int taille, i, j     ;
   scanf("%d", &taille) ;
   taille++ ;
   for(i = 0 ; i < taille ;  i++)
